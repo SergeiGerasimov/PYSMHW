@@ -4,8 +4,17 @@
 # - 6 -> да
 # - 7 -> да
 # - 1 -> нет
-a = int(input ('Введите день недели: '))
-if a>=6:
-    print('Да')
-else:
-    print('Нет')
+# a = int(input ('Введите день недели: '))
+# if a == 6 or a == 7:
+#     print('Да')
+# elif a<=5:
+#     print('Нет')
+# else:
+#     print('Это не день недели')
+
+n = int(input('Введите число N: '))
+j = 1
+for i in range(1, n+1):
+    print(j, end = ', ')
+    j = j * -3
+   
